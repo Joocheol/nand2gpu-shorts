@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Manim renders and cache
+media/
+.manim/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Generated episode audio
+episodes/*/audio/
+
+# Preview videos
+episodes/*/previews/
